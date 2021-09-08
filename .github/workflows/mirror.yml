@@ -6,7 +6,7 @@ env:
   IMAGES: |
     ruby:2.7-slim
     ruby:2.7.4-slim
-  REPOSITORY: ghcr.io/hogelog/ecr-mirror
+  REPOSITORY: ghcr.io/hogelog
 jobs:
   mirror:
     runs-on: ubuntu-20.04

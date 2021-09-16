@@ -6,6 +6,7 @@ env:
   IMAGES: |
     ruby:2.7-slim
     ruby:2.7.4-slim
+    busybox
   REPOSITORY: ghcr.io/hogelog
 jobs:
   mirror:
